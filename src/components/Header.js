@@ -4,11 +4,22 @@ class Header extends Component {
     render() {
         return (
             <header id="home">
-                <nav id="nav-bar">
-                    <a href="#home">HOME</a>
-                    <a href="#about">ABOUT</a>
-                    <a href="#projects">PROJECTS</a>
-                </nav>
+                <ul class="nav justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link lead" href="#home">HOME</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lead" href="#about">ABOUT</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lead" href="#projects">PROJECTS</a>
+                    </li>
+                </ul>
+                <div class="container">
+                    <div class="page-header">
+                        <h1>Hi! I am Jel.</h1>
+                    </div>
+                </div>
             </header>
         );
     }
