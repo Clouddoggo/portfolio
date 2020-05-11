@@ -5,15 +5,11 @@ class Footer extends Component {
         return (
             <footer>
                 <ul>
-                    <li>
-                        <a href="https://github.com/Clouddoggo" alt="go to GitHub profile">
-                            Github<i className="fa fa-github"></i>
-                        </a>
+                    <li class="github">
+                        <a href="https://github.com/Clouddoggo" alt="go to GitHub profile" title="Visit my GitHub">GitHub</a>
                     </li>
-                    <li>
-                        <a href="mailto:jel.lim@u.nus.edu" alt="email me">
-                            Email<i className="fa fa-envelope"></i>
-                        </a>
+                    <li class="email">
+                        <a href="mailto:jel.lim@u.nus.edu" alt="email me" title="Email me">Email</a>
                     </li>
                 </ul>
             </footer>

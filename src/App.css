@@ -53,3 +53,13 @@ Header {
   margin: 100px auto 100px auto;
   width: 70vw;
 }
+
+li {
+  text-align: -webkit-match-parent;
+}
+
+#about {
+  width: 80vw;
+  align-content: center;
+  padding: 10px 5px 10px 80px;
+}
