@@ -4,6 +4,7 @@ import About from "./components/About";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import './App.css';
+import data from './data';
 
 class App extends Component {
   render() {
@@ -11,7 +12,7 @@ class App extends Component {
       <div className="App" >
         <Header></Header>
         <About></About>
-        <Projects></Projects>
+        <Projects data={data}></Projects>
         <Footer></Footer>
       </div>
     );
