@@ -15,10 +15,9 @@ class Header extends Component {
                         <a class="nav-link lead text-white" href="#projects">PROJECTS</a>
                     </li>
                 </ul>
-                <div class="container">
-                    <div class="page-header">
-                        <h1 class="text-white">Hi! I am Jel.</h1>
-                    </div>
+                <div id="introduction" class="justify-content-center text-center">
+                    <h1 class="text-white">Hi! I am Jel.</h1>
+                    <p class="text-white">I am a Year 2 Computer Science student at the National University of Singapore.</p>
                 </div>
             </header>
         );

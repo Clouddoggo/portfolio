@@ -48,3 +48,8 @@ Header {
   text-align: center;
   overflow: hidden;
 }
+
+#introduction {
+  margin: 100px auto 100px auto;
+  width: 70vw;
+}
