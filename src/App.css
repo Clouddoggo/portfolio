@@ -54,12 +54,54 @@ Header {
   width: 70vw;
 }
 
-li {
-  text-align: -webkit-match-parent;
-}
-
 #about {
   width: 80vw;
   align-content: center;
   padding: 10px 5px 10px 80px;
+}
+
+.fa {
+  padding: 10px;
+  font-size: 20px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect */
+
+.fa:hover {
+  color: #9CECFB;
+  text-decoration: none;
+}
+
+/* Set a specific color for each brand */
+
+/* Email */
+
+.fa-envelope {
+  background: #373B44;
+  color: white;
+}
+
+/* GitHub */
+
+.fa-github {
+  background: #373B44;
+  color: white;
+}
+
+/* Instagram */
+
+.fa-instagram {
+  background: #373B44;
+  color: white;
+}
+
+footer {
+  background: #373B44;
+}
+
+#nav-bar {
+  background-color: #000000;
 }

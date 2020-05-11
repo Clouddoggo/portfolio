@@ -4,7 +4,7 @@ class Header extends Component {
     render() {
         return (
             <header id="home">
-                <ul class="nav justify-content-center">
+                <ul id="nav-bar" class="nav justify-content-center fixed-top">
                     <li class="nav-item">
                         <a class="nav-link lead text-white" href="#home">HOME</a>
                     </li>
@@ -13,6 +13,9 @@ class Header extends Component {
                     </li>
                     <li class="nav-item">
                         <a class="nav-link lead text-white" href="#projects">PROJECTS</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link lead text-white" href="#contact">CONTACT</a>
                     </li>
                 </ul>
                 <div id="introduction" class="justify-content-center text-center">
