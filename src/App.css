@@ -37,11 +37,11 @@
   }
 }
 
-Header {
+header {
   position: relative;
   height: 100vh;
   min-height: 400px;
-  width: 100%;
+  width: 100vw;
   background: #161415 url(./images/no-copyright.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -52,12 +52,6 @@ Header {
 #introduction {
   margin: 100px auto 100px auto;
   width: 70vw;
-}
-
-#about {
-  width: 80vw;
-  align-content: center;
-  padding: 10px 5px 10px 80px;
 }
 
 .fa {
@@ -104,4 +98,9 @@ footer {
 
 #nav-bar {
   background-color: #000000;
+}
+
+#about {
+  width: 60vw;
+  align-items: center;
 }
