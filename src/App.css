@@ -41,7 +41,6 @@ header {
   position: relative;
   height: 100vh;
   min-height: 400px;
-  width: 100vw;
   background: #161415 url(./images/no-copyright.jpg) no-repeat top center;
   background-size: cover !important;
   -webkit-background-size: cover !important;
@@ -52,6 +51,7 @@ header {
 #introduction {
   margin: 100px auto 100px auto;
   width: 70vw;
+  color: white;
 }
 
 .fa {
