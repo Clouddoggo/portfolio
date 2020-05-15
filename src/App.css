@@ -1,3 +1,13 @@
+@font-face {
+  font-family: Raleway;
+  src: url(./fonts/Raleway/Raleway-Medium.ttf);
+}
+
+@font-face {
+  font-family: Jost;
+  src: url(./fonts/Jost/Jost-VariableFont_wght.ttf);
+}
+
 .App {
   text-align: center;
 }
@@ -97,10 +107,21 @@ footer {
 }
 
 #nav-bar {
-  background-color: #000000;
+  background-color: black;
 }
 
-#about {
-  width: 60vw;
-  align-items: center;
+.language {
+  background-color: #005C97;
+  color: white;
+  float: left;
+  width: 18%;
+  font-weight: bold;
+  font-family: Raleway;
+  font-size: small;
+}
+
+.title {
+  font-family: Jost;
+  font-weight: bold;
+  padding: 40px;
 }

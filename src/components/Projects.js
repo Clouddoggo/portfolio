@@ -5,6 +5,8 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
+import Carousel from 'react-bootstrap/Carousel';
+import Col from 'react-bootstrap/Col';
 
 class Projects extends Component {
 
@@ -13,65 +15,57 @@ class Projects extends Component {
         // let data = this.props.data;
 
         return (
-            <section id="projects">
-                <Container class="d-flex justify-content-center" fluid>
+            <section id="projects" class="p-lg-4">
+                <Container class="d-flex justify-content-center">
+                    <h2 class="title">PROJECTS</h2>
                     <Row>
                         <div class="card-group align-items-stretch col-lg-12">
                             <Card>
                                 <div class="card-body">
-                                    <Image src={require("../images/Todo-App.png")} width="70%" />
+                                    <div id="todoCarousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#todoCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#todoCarousel" data-slide-to="1"></li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <Image class="d-block w-100" src={require("../images/Todo-Front.png")} alt="First slide" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <Image class="d-block w-100" src={require("../images/Todo-Back.png")} alt="Second slide" />
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#todoCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#todoCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
+                                    <Card.Text>
+                                        Heroku deploment in progress.
+                                    </Card.Text>
                                     <Button class="btn btn-primary" data-toggle="modal" data-target="#todoModal">
                                         Learn more
                                     </Button>
-                                    <div class="modal" id="todoModal" tabindex="-1" role="dialog" aria-labelledby="todoModal" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <Modal.Header>
-                                                    <h5 class="modal-title" id="todoModal">Todo App</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    Heroku deployment in progress
-      </Modal.Body>
-                                                <Modal.Footer>
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </Modal.Footer>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://github.com/Clouddoggo/todo-app" target="_blank" class="btn btn-primary">Source code</a>
                                 </div>
                             </Card>
                             <Card>
                                 <div class="card-body">
                                     <Image src={require("../images/Duke.png")} width="30%" />
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Worked on basic commands such as add, delete, find and list tasks</li>
+                                            <li>Added help command for users to view list of commands available</li>
+                                            <li>Wrote a comprehensive User Guide for new and existing users</li>
+                                        </ul>
+                                    </Card.Text>
                                     <Button class="btn btn-primary" data-toggle="modal" data-target="#dukeModal">
                                         Learn more
                                     </Button>
-                                    <div class="modal" id="dukeModal" tabindex="-1" role="dialog" aria-labelledby="dukeModal" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <Modal.Header>
-                                                    <h5 class="modal-title" id="dukeModal">Duke</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <ul>
-                                                        <li>Worked on basic commands such as add, delete, find and list tasks</li>
-                                                        <li>Added help command for users to view list of commands available</li>
-                                                        <li>Wrote a comprehensive User Guide for new and existing users</li>
-                                                    </ul>
-                                                </Modal.Body>
-                                                <Modal.Footer>
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </Modal.Footer>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://github.com/Clouddoggo/duke" target="_blank" class="btn btn-primary">Source code</a>
                                 </div>
                             </Card>
@@ -82,61 +76,31 @@ class Projects extends Component {
                             <Card>
                                 <div class="card-body">
                                     <Image src={require("../images/JelphaBot.png")} width="70%" />
+                                    <Card.Text>
+                                        <ul>
+                                            <li>Morphed the given address book into a task manager by adding the DateTime class and test cases</li>
+                                            <li>In charge of the productivity aspect of app</li>
+                                            <li><code>start</code> and <code>stop</code> timer commands</li>
+                                            <li>Switch tab command: <code>productivity</code>, <code>:p</code> and <code>:P</code></li>
+                                            <li>Rendering of productivity panel</li>
+                                        </ul>
+                                    </Card.Text>
                                     <Button class="btn btn-primary" data-toggle="modal" data-target="#jelphabotModal">
                                         Learn more
                                     </Button>
-                                    <div class="modal" id="jelphabotModal" tabindex="-1" role="dialog" aria-labelledby="jelphabotModal" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <Modal.Header>
-                                                    <h5 class="modal-title" id="jelphabotModal">JelphaBot</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    <ul>
-                                                        <li>In charge of the productivity aspect of app</li>
-                                                        <li><code>start</code> and <code>stop</code> timer commands</li>
-                                                        <li>Switch tab command: productivity, :p and :P</li>
-                                                        <li>Rendering of productivity panel</li>
-                                                    </ul>
-                                        Also worked on morphing the existing address book into a task manager by adding the DateTime class and test cases
-      </Modal.Body>
-                                                <Modal.Footer>
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </Modal.Footer>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://github.com/Clouddoggo/main" target="_blank" class="btn btn-primary">Source code</a>
                                 </div>
                             </Card>
                             <Card>
                                 <div class="card-body">
                                     <Image src={require("../images/Duke.png")} width="30%" />
+                                    <Card.Text>
+                                        Some quick example text to build on the card title
+                                        and make up the bulk of the card's content.
+                                    </Card.Text>
                                     <Button class="btn btn-primary" data-toggle="modal" data-target="#websiteModal">
                                         Learn more
                                     </Button>
-                                    <div class="modal" id="websiteModal" tabindex="-1" role="dialog" aria-labelledby="websiteModal" aria-hidden="true">
-                                        <div class="modal-dialog modal-dialog-centered" role="document">
-                                            <div class="modal-content">
-                                                <Modal.Header>
-                                                    <h5 class="modal-title" id="websiteModal">This porfolio</h5>
-                                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                                        <span aria-hidden="true">&times;</span>
-                                                    </button>
-                                                </Modal.Header>
-                                                <Modal.Body>
-                                                    Some quick example text to build on the card title
-                                                    and make up the bulk of the card's content.
-      </Modal.Body>
-                                                <Modal.Footer>
-                                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                                                </Modal.Footer>
-                                            </div>
-                                        </div>
-                                    </div>
                                     <a href="https://github.com/Clouddoggo/portfolio" target="_blank" class="btn btn-primary">Source code</a>
                                 </div>
                             </Card>
