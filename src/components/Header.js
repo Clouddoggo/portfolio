@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Socials from './Socials';
 
 class Header extends Component {
     render() {
@@ -16,8 +17,9 @@ class Header extends Component {
                     </li>
                 </ul>
                 <div id="introduction">
-                    <h1>Hi! I am Jel.</h1>
+                    <h1 class="display-2 font-weight-bold">Hi! I am Jel.</h1>
                     <p>I am a Year 2 Computer Science student at the National University of Singapore.</p>
+                    <Socials></Socials>
                 </div>
             </header>
         );

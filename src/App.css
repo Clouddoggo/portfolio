@@ -55,13 +55,14 @@ header {
   background-size: cover !important;
   -webkit-background-size: cover !important;
   text-align: center;
-  overflow: hidden;
 }
 
 #introduction {
-  margin: 100px auto 100px auto;
+  text-align: center;
+  display: inline-block;
   width: 70vw;
   color: white;
+  padding: 250px 0px 300px 0px;
 }
 
 .fa {
@@ -81,32 +82,13 @@ header {
 
 /* Set a specific color for each brand */
 
-/* Email */
+/* Email, GitHub, Instagram*/
 
-.fa-envelope {
-  background: #373B44;
+.fa-envelope, .fa-github, .fa-instagram {
   color: white;
 }
 
-/* GitHub */
-
-.fa-github {
-  background: #373B44;
-  color: white;
-}
-
-/* Instagram */
-
-.fa-instagram {
-  background: #373B44;
-  color: white;
-}
-
-footer {
-  background: #373B44;
-}
-
-#nav-bar {
+#nav-bar, footer {
   background-color: black;
 }
 
