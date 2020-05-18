@@ -1,31 +1,35 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4083a5e8edc4b704c13b23c1efc842ed",
+    "revision": "a71e7e34bcd87d82e91ffbe2636d397e",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "4f76d82a0a12d2685d61",
+    "revision": "b36d9b5e0bf106821d0d",
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "a03090f1cf955881f961",
+    "revision": "effc67da95aa25a297a9",
     "url": "/portfolio/static/css/main.379427a0.chunk.css"
   },
   {
-    "revision": "4f76d82a0a12d2685d61",
-    "url": "/portfolio/static/js/2.6e014045.chunk.js"
+    "revision": "b36d9b5e0bf106821d0d",
+    "url": "/portfolio/static/js/2.398c4a13.chunk.js"
   },
   {
     "revision": "1cb34fcc5e9ef14c6feea7d1cd9b4db7",
-    "url": "/portfolio/static/js/2.6e014045.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.398c4a13.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "a03090f1cf955881f961",
-    "url": "/portfolio/static/js/main.b428c32e.chunk.js"
+    "revision": "effc67da95aa25a297a9",
+    "url": "/portfolio/static/js/main.eac214c5.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
     "url": "/portfolio/static/js/runtime-main.f4f2abbf.js"
+  },
+  {
+    "revision": "3d7150265f898e87a3fbf5c6f4458770",
+    "url": "/portfolio/static/media/CalendarTab.3d715026.png"
   },
   {
     "revision": "fc8e3fcd5189d8d2905272dcf70fae4c",
@@ -40,8 +44,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/Jost-VariableFont_wght.ebd3b92b.ttf"
   },
   {
+    "revision": "405798364d7b7f6a02d92758c1c01f22",
+    "url": "/portfolio/static/media/ProductivityTab.40579836.png"
+  },
+  {
     "revision": "bb5ae98e4ce1a64042093dc235c305ed",
     "url": "/portfolio/static/media/Raleway-Medium.bb5ae98e.ttf"
+  },
+  {
+    "revision": "b807164b43b5edad029ea69a55a0b963",
+    "url": "/portfolio/static/media/TaskListTab.b807164b.png"
   },
   {
     "revision": "24467d8efde61121ddd8069780cfec3e",
@@ -58,5 +70,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "8ed92b3bd20593e67db6ef84d497a370",
     "url": "/portfolio/static/media/no-copyright.8ed92b3b.jpg"
+  },
+  {
+    "revision": "816f57fd7da35801f0743669efa33206",
+    "url": "/portfolio/static/media/reminderpopup.816f57fd.png"
   }
 ]);
