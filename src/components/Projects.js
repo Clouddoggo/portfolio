@@ -29,10 +29,10 @@ class Projects extends Component {
                                         </ol>
                                         <div class="carousel-inner" role="listbox">
                                             <div class="carousel-item active">
-                                                <Image class="d-block w-100" src={require("../images/Todo-Front.png")} alt="First slide" />
+                                                <Image class="d-block w-100" src={require("../images/Todo-Front.png")} alt="First Todo App slide" />
                                             </div>
                                             <div class="carousel-item">
-                                                <Image class="d-block w-100" src={require("../images/Todo-Back.png")} alt="Second slide" />
+                                                <Image class="d-block w-100" src={require("../images/Todo-Back.png")} alt="Second Todo App slide" />
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#todoCarousel" role="button" data-slide="prev">
@@ -75,7 +75,40 @@ class Projects extends Component {
                         <div class="card-group align-items-stretch col-lg-12">
                             <Card>
                                 <div class="card-body">
-                                    <Image src={require("../images/JelphaBot.png")} width="70%" />
+                                    <div id="jelphaBotCarousel" class="carousel slide" data-ride="carousel">
+                                        <ol class="carousel-indicators">
+                                            <li data-target="#jelphaBotCarousel" data-slide-to="0" class="active"></li>
+                                            <li data-target="#jelphaBotCarousel" data-slide-to="1"></li>
+                                            <li data-target="#jelphaBotCarousel" data-slide-to="2"></li>
+                                            <li data-target="#jelphaBotCarousel" data-slide-to="3"></li>
+                                            <li data-target="#jelphaBotCarousel" data-slide-to="4"></li>
+                                        </ol>
+                                        <div class="carousel-inner" role="listbox">
+                                            <div class="carousel-item active">
+                                                <Image class="d-block w-100" src={require("../images/JelphaBot.png")} alt="First JelphaBot slide" width="100%" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <Image class="d-block w-100" src={require("../images/TaskListTab.png")} alt="Second JelphaBot slide" width="100%" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <Image class="d-block w-100" src={require("../images/CalendarTab.png")} alt="Third JelphaBot slide" width="100%" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <Image class="d-block w-100" src={require("../images/ProductivityTab.png")} alt="Fourth JelphaBot slide" width="100%" />
+                                            </div>
+                                            <div class="carousel-item">
+                                                <Image class="d-block w-100" src={require("../images/reminderpopup.png")} alt="Fifth JelphaBot slide" width="85%" />
+                                            </div>
+                                        </div>
+                                        <a class="carousel-control-prev" href="#jelphaBotCarousel" role="button" data-slide="prev">
+                                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Previous</span>
+                                        </a>
+                                        <a class="carousel-control-next" href="#jelphaBotCarousel" role="button" data-slide="next">
+                                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                            <span class="sr-only">Next</span>
+                                        </a>
+                                    </div>
                                     <Card.Text>
                                         <ul>
                                             <li>Morphed the given address book into a task manager by adding the DateTime class and test cases</li>
