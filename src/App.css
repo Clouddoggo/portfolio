@@ -60,7 +60,7 @@ header {
 #introduction {
   text-align: center;
   display: inline-block;
-  width: 70vw;
+  width: 60vw;
   color: white;
   padding: 250px 0px 300px 0px;
 }
@@ -88,8 +88,12 @@ header {
   color: white;
 }
 
-#nav-bar, footer {
+#nav-bar {
   background-color: black;
+}
+
+footer {
+  background-color: #2e2c2d;
 }
 
 .language {

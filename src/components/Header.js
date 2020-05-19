@@ -17,8 +17,10 @@ class Header extends Component {
                     </li>
                 </ul>
                 <div id="introduction">
-                    <h1 class="display-2 font-weight-bold">Hi! I am Jel.</h1>
-                    <p>I am a Year 2 Computer Science student at the National University of Singapore.</p>
+                    <h1 class="display-3 font-weight-bold">Hi! I am Jel.</h1>
+                    <p>I am a Year 3 Computer Science student at the National University of Singapore.
+                    <br></br>
+                    I like brainstorming optimisation solutions for a faster and smoother overall user experience.</p>
                     <Socials></Socials>
                 </div>
             </header>

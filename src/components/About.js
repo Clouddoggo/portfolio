@@ -10,7 +10,7 @@ import ProgressBar from 'react-bootstrap/ProgressBar';
 class About extends Component {
     render() {
         return (
-            <section id="about" class="p-lg-4">
+            <section id="about" class="p-lg-5">
                 <Container>
                     <h2 class="title">ABOUT</h2>
                     <Row>
@@ -18,7 +18,6 @@ class About extends Component {
                             <h3 class="pb-lg-4">About Me</h3>
                             <Image src={require("../images/clouddoggo.png")} roundedCircle width="30%" height="45%" alt="photo of me" responsive />
                             <p class="pt-lg-4">
-                                I like brainstorming optimisation solutions for a faster and smoother overall user experience.
                                 I have a passion for creating intuitive, dynamic user interfaces.
                                 I mainly work on the backend of the applications below.
                             </p>

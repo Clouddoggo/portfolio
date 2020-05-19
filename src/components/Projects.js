@@ -15,7 +15,7 @@ class Projects extends Component {
         // let data = this.props.data;
 
         return (
-            <section id="projects" class="p-lg-4">
+            <section id="projects" class="p-lg-5">
                 <Container class="d-flex justify-content-center">
                     <h2 class="title">PROJECTS</h2>
                     <Row>
@@ -29,10 +29,10 @@ class Projects extends Component {
                                         </ol>
                                         <div class="carousel-inner" role="listbox">
                                             <div class="carousel-item active">
-                                                <Image class="d-block w-100" src={require("../images/Todo-Front.png")} alt="First Todo App slide" />
+                                                <Image class="d-block w-100" src={require("../images/Todo-Front.png")} alt="First Todo App slide" width="105%" />
                                             </div>
                                             <div class="carousel-item">
-                                                <Image class="d-block w-100" src={require("../images/Todo-Back.png")} alt="Second Todo App slide" />
+                                                <Image class="d-block w-100" src={require("../images/Todo-Back.png")} alt="Second Todo App slide" width="105%" />
                                             </div>
                                         </div>
                                         <a class="carousel-control-prev" href="#todoCarousel" role="button" data-slide="prev">
