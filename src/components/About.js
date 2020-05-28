@@ -16,7 +16,7 @@ class About extends Component {
                     <Row>
                         <Col>
                             <h3 class="pb-lg-4">About Me</h3>
-                            <Image src={require("../images/clouddoggo.png")} roundedCircle width="30%" height="45%" alt="photo of me" responsive />
+                            <Image src={require("../images/clouddoggo.png")} alt="photo of me" roundedCircle width="35%" />
                             <p class="pt-lg-4">
                                 I have a passion for creating intuitive, dynamic user interfaces.
                                 I mainly work on the backend of the applications below.
@@ -54,7 +54,7 @@ class About extends Component {
                     </Row>
 
                 </Container>
-            </section>
+            </section >
         );
     }
 }

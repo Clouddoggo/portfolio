@@ -140,7 +140,7 @@ class Projects extends Component {
                         </div>
                     </Row>
                 </Container>
-            </section>
+            </section >
         );
     }
 }

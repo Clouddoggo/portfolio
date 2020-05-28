@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link, animateScroll as scroll } from "react-scroll";
 import Socials from './Socials';
 
 class Header extends Component {
@@ -7,13 +8,13 @@ class Header extends Component {
             <header id="home">
                 <ul id="nav-bar" class="nav justify-content-center fixed-top">
                     <li class="nav-item">
-                        <a class="nav-link lead text-white" href="#home">HOME</a>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="home">HOME</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link lead text-white" href="#about">ABOUT</a>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="about">ABOUT</Link>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link lead text-white" href="#projects">PROJECTS</a>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="projects">PROJECTS</Link>
                     </li>
                 </ul>
                 <div id="introduction">
