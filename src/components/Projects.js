@@ -15,7 +15,7 @@ class Projects extends Component {
         // let data = this.props.data;
 
         return (
-            <section id="projects" class="p-lg-5">
+            <section id="projects" class="p-5">
                 <Container class="d-flex justify-content-center">
                     <h2 class="title">PROJECTS</h2>
                     <Row>

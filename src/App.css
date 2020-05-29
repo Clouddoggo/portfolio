@@ -8,6 +8,11 @@
   src: url(./fonts/Jost/Jost-VariableFont_wght.ttf);
 }
 
+@font-face {
+  font-family: Merriweather;
+  src: url(./fonts/Merriweather/Merriweather-Regular.ttf);
+}
+
 .App {
   text-align: center;
 }
@@ -47,6 +52,8 @@
   }
 }
 
+/* header items */
+
 header {
   position: relative;
   height: 100vh;
@@ -57,12 +64,23 @@ header {
   text-align: center;
 }
 
+.title {
+  font-family: Jost;
+  font-weight: bold;
+  padding: 40px;
+}
+
 #introduction {
   text-align: center;
   display: inline-block;
   width: 60vw;
   color: white;
   padding: 250px 0px 300px 0px;
+  text-justify: distribute;
+}
+
+#nav-bar {
+  background-color: black;
 }
 
 .fa {
@@ -88,26 +106,22 @@ header {
   color: white;
 }
 
-#nav-bar {
-  background-color: black;
-}
-
-footer {
-  background-color: #2e2c2d;
-}
+/* about items */
 
 .language {
   background-color: #005C97;
   color: white;
   float: left;
-  width: 18%;
+  width: 10vw;
   font-weight: bold;
   font-family: Raleway;
   font-size: small;
 }
 
-.title {
+/* footer items */
+
+footer {
+  background-color: #404040;
   font-family: Jost;
-  font-weight: bold;
-  padding: 40px;
+  font-size: small;
 }
