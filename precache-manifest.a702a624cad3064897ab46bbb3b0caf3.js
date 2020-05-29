@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "eaba95473008accc15e05e4622dedb32",
+    "revision": "a46a7e2b1066aa7cefdf78e1beead9f6",
     "url": "/portfolio/index.html"
   },
   {
@@ -8,8 +8,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/css/2.de424728.chunk.css"
   },
   {
-    "revision": "b142a7174efdbda634eb",
-    "url": "/portfolio/static/css/main.acdd45c7.chunk.css"
+    "revision": "7e68edfeaa4fcb96dbda",
+    "url": "/portfolio/static/css/main.e8e9fdec.chunk.css"
   },
   {
     "revision": "5f0f54b0662057ff2b0e",
@@ -20,8 +20,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/js/2.787062a3.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "b142a7174efdbda634eb",
-    "url": "/portfolio/static/js/main.86b0a267.chunk.js"
+    "revision": "7e68edfeaa4fcb96dbda",
+    "url": "/portfolio/static/js/main.fc65bac6.chunk.js"
   },
   {
     "revision": "e5284505c87d0b24b753",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "ebd3b92b922ffa030e0bc8c7286d37ab",
     "url": "/portfolio/static/media/Jost-VariableFont_wght.ebd3b92b.ttf"
+  },
+  {
+    "revision": "c97a9fc29652bb4afcdac68020e5d0f7",
+    "url": "/portfolio/static/media/Merriweather-Regular.c97a9fc2.ttf"
   },
   {
     "revision": "405798364d7b7f6a02d92758c1c01f22",
