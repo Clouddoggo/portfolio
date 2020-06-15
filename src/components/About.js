@@ -15,38 +15,42 @@ class About extends Component {
                     <h2 class="title">ABOUT</h2>
                     <Row>
                         <Col>
-                            <h3 class="pb-lg-4">About Me</h3>
+                            <h3 class="pb-3">About Me</h3>
                             <Image src={require("../images/clouddoggo.png")} alt="photo of me" roundedCircle width="35%" />
-                            <p class="pt-lg-4">
+                            <p class="pt-4">
                                 Though I mainly work on the backend of the applications below, I have a passion for creating intuitive, dynamic user interfaces and aesthetics.
                             </p>
                         </Col>
                         <Col>
                             <h3>Languages</h3>
-                            <div class="p-lg-3 p-sm-1">
-                                <div class="p-lg-3 p-sm-1">
+                            <div class="p-3">
+                                <div>
                                     <span class="language">Java</span>
                                     <ProgressBar now={60} label="60%" srOnly />
                                 </div>
-                                <div class="p-lg-3 p-sm-1">
+                                <div class="pt-3">
                                     <span class="language">HTML</span>
                                     <ProgressBar now={45} label="45%" srOnly />
                                 </div>
-                                <div class="p-lg-3 p-sm-1">
+                                <div class="pt-3">
                                     <span class="language">CSS</span>
                                     <ProgressBar now={45} label="45%" srOnly />
                                 </div>
-                                <div class="p-lg-3 p-sm-1">
+                                <div class="pt-3">
                                     <span class="language">Python</span>
                                     <ProgressBar now={30} label="30%" srOnly />
                                 </div>
-                                <div class="p-lg-3 p-sm-1">
+                                <div class="pt-3">
                                     <span class="language">JavaScript</span>
                                     <ProgressBar now={25} label="25%" srOnly />
                                 </div>
-                                <div class="p-lg-3 p-sm-1">
+                                <div class="pt-3">
                                     <span class="language">C</span>
                                     <ProgressBar now={17} label="17%" srOnly />
+                                </div>
+                                <div class="pt-3">
+                                    <span class="language">Golang</span>
+                                    <ProgressBar now={10} label="10%" srOnly />
                                 </div>
                             </div>
                         </Col>

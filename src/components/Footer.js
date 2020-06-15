@@ -9,9 +9,6 @@ class Footer extends Component {
                     <div class="pt-2">
                         <Socials></Socials>
                     </div>
-                    <div class="p-3">
-                        <span class="text-white">Made with ReactJS and Bootstrap 4</span>
-                    </div>
                 </div>
             </footer>
         );

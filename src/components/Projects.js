@@ -3,16 +3,13 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 import Image from 'react-bootstrap/Image';
-import Carousel from 'react-bootstrap/Carousel';
-import Col from 'react-bootstrap/Col';
 
 class Projects extends Component {
 
     render() {
         // To switch to data file
-        // let data = this.props.data;
+        let projects = this.props.data.projects;
 
         return (
             <section id="projects" class="p-5">
