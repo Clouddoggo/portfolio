@@ -34,10 +34,10 @@ class Projects extends Component {
                             category="Website"
                         />
                         <Thumbnail
-                            src="https://github.com/Clouddoggo/portfolio"
+                            src="https://github.com/Clouddoggo"
                             image="Todo-Front.png"
-                            title="Portfolio"
-                            category="Website"
+                            title="ChairVisE"
+                            category="Web"
                         />
                     </Row>
                 </div>
