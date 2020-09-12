@@ -29,11 +29,11 @@ class About extends Component {
                                     <ProgressBar now={60} label="60%" srOnly />
                                 </div>
                                 <div class="pt-3">
-                                    <span class="language">HTML</span>
+                                    <span class="language">HTML5</span>
                                     <ProgressBar now={45} label="45%" srOnly />
                                 </div>
                                 <div class="pt-3">
-                                    <span class="language">CSS</span>
+                                    <span class="language">CSS3</span>
                                     <ProgressBar now={45} label="45%" srOnly />
                                 </div>
                                 <div class="pt-3">
