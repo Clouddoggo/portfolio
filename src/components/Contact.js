@@ -1,8 +1,6 @@
 import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 
-// TODO: add checks for required fields & check submit button working
-
 class Contact extends Component {
 
     constructor(props) {

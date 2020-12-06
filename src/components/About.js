@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 import { Image, Row, Col, Container } from 'react-bootstrap';
 import Typed from 'typed.js';
 
-// TODO: make bar and image responsive
-
 class About extends Component {
     componentDidMount() {
         const strings = ['Product Design.', 'UI/UX.', 'Quality Assurance.'];

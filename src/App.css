@@ -158,11 +158,3 @@ header {
 .project-overlay:hover .project-details {
   opacity: 1;
 }
-
-/* footer items */
-
-footer {
-  background-color: #484848;
-  font-family: Jost;
-  font-size: small;
-}
