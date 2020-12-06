@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Image, Button } from 'react-bootstrap';
+import { Image } from 'react-bootstrap';
 
 class Thumbnail extends Component {
     constructor(props) {
@@ -18,19 +18,21 @@ class Thumbnail extends Component {
 
     render() {
         return (
-            // <h5>{this.props.category}</h5>
-            <div className="col-sm-6 col-md-4 col-lg-4">
+            <div className="col-sm-6 pb-4">
                 <div className="project-item">
                     <div className="project-overlay">
                         {" "}
                         <div className="project-details">
-                            <h4>{this.props.title}</h4>
-                            <Button className="btn-light" href={this.props.src}>Source</Button>
+                            <h4>{this.props.type} <a class="fa fa-github" href={this.props.src} title="View the source code"></a></h4>
+                            <p className="px-4">
+                                {this.props.details}
+                            </p>
                         </div>
+                        <h4>{this.props.title}</h4>
                         <Image
                             src={require(`../images/${this.props.image}`)}
                             alt="Project image"
-                            width="350"
+                            width="450"
                         />{" "}
                     </div>
                 </div>

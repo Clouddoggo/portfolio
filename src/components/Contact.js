@@ -1,8 +1,5 @@
 import React, { Component } from 'react';
-import Form from 'react-bootstrap/Form';
-import Col from 'react-bootstrap/Col';
-import Button from 'react-bootstrap/Button';
-import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 
 // TODO: add checks for required fields & check submit button working
 
@@ -26,38 +23,13 @@ class Contact extends Component {
     render() {
         return (
             <section id="contact">
-                <h3 class="mt-lg-4 mb-lg-3 align">Tell me something!</h3>
-                <Container>
-                    <div>
-                        <Form action="mailto:jel.lim@u.nus.edu" method="post" enctype="text/plain">
-                            <Form.Group controlId="formGroupName">
-                                <Form.Row>
-                                    <Col>
-                                        <Form.Label class="float-left">First name (required)</Form.Label>
-                                        <Form.Control required placeholder="First name" onChange={this.changeHandler} />
-                                    </Col>
-                                    <Col>
-                                        <Form.Label class="float-left">Last name (required)</Form.Label>
-                                        <Form.Control required placeholder="Last name" onChange={this.changeHandler} />
-                                    </Col>
-                                </Form.Row>
-                            </Form.Group>
-                            <Form.Group controlId="formGroupEmail">
-                                <Form.Label class="float-left">Email address (required)</Form.Label>
-                                <Form.Control required type="email" placeholder="Enter email" onChange={this.changeHandler} />
-                            </Form.Group>
-                            <Form.Group controlId="formSubject">
-                                <Form.Label class="float-left">Your subject</Form.Label>
-                                <Form.Control onChange={this.changeHandler} />
-                            </Form.Group>
-                            <Form.Group controlId="form.ControlTextarea">
-                                <Form.Label class="float-left">Your message (required)</Form.Label>
-                                <Form.Control required as="textarea" rows="4" onChange={this.changeHandler} />
-                            </Form.Group>
-                            <Button class="btn-primary" type="submit">Submit</Button>
-                        </Form>
-                    </div>
-                </Container>
+                <p>Have an idea you want to bring to life? Contact me!</p>
+                <Image src={require("../images/clouddoggo.png")} className="pb-3" alt="photo of me" roundedCircle width="100vw" />
+                <div className="pb-5">
+                    <a class="fa fa-github" href="https://github.com/Clouddoggo" alt="go to GitHub profile" title="Visit my GitHub"></a>
+                    <a class="fa fa-envelope" href="mailto:jel.lim@u.nus.edu" alt="Email me" title="Email me"></a>
+                    <a class="fa fa-instagram" href="https://www.instagram.com/jel_x/?hl=en" alt="go to Instagram profile" title="Follow me on Instagram"></a>
+                </div>
             </section>
         );
     }

@@ -1,63 +1,97 @@
 import React, { Component } from 'react';
-import Image from 'react-bootstrap/Image';
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
-import ProgressBar from 'react-bootstrap/ProgressBar';
+import { Image, Row, Col, Container } from 'react-bootstrap';
+import Typed from 'typed.js';
 
 // TODO: make bar and image responsive
 
 class About extends Component {
+    componentDidMount() {
+        const strings = ['Product Design.', 'UI/UX.', 'Quality Assurance.'];
+
+        const options = {
+            strings: strings,
+            typeSpeed: 50,
+            backSpeed: 50,
+            loop: true,
+            loopCount: 2,
+        }
+
+        this.typed = new Typed(this.el, options);
+    }
+
+    componentWillUnmount() {
+        this.typed.destroy();
+    }
+
     render() {
         return (
-            <section id="about" class="p-5">
-                <Container>
-                    <h2 class="title">ABOUT</h2>
-                    <Row>
-                        <Col>
-                            <h3 class="pb-3">About Me</h3>
-                            <Image src={require("../images/clouddoggo.png")} alt="photo of me" roundedCircle width="35%" />
-                            <p class="pt-4">
-                                Though I mainly work on the backend of the applications below, I have a passion for creating intuitive, dynamic user interfaces and aesthetics.
+            <section id="about">
+                <Container id="about-container">
+                    <Row className="justify-content-center">
+                        <Col className="col-10 col-sm-6">
+                            <h1 className="josefin">Hello, I am Jel.</h1>
+                            <p className="lora">
+                                I am in my penultimate year at the National University of Singapore (NUS).
+            I have interests in <span
+                                    style={{ whiteSpace: 'pre' }}
+                                    ref={(el) => { this.el = el; }}
+                                />
                             </p>
+                        </Col>
+                        <Col className="col-6">
+                            <Image src={require("../images/clouddoggo.png")} alt="photo of me" rounded width="200vw" />
+                        </Col>
+                    </Row>
+                    <Row className="mt-4">
+                        <Col>
+                            <h3>Technical Skills</h3>
+                            <Row>
+                                <Col>
+                                    <h4>Programming</h4>
+                                    <div class="p-3">
+                                        <ul>
+                                            <li>Java</li>
+                                            <li>JavaScript</li>
+                                            <li>HTML/CSS</li>
+                                            <li>Python</li>
+                                            <li>Dart</li>
+                                            <li>C</li>
+                                        </ul>
+                                    </div>
+                                </Col>
+                                <Col>
+                                    <h4>Frameworks</h4>
+                                    <div class="p-3">
+                                        <ul>
+                                            <li>VueJS</li>
+                                            <li>ReactJS</li>
+                                        </ul>
+                                    </div>
+                                </Col>
+                            </Row>
+
                         </Col>
                         <Col>
                             <h3>Languages</h3>
-                            <div class="p-3">
-                                <div>
-                                    <span class="language">Java</span>
-                                    <ProgressBar now={60} label="60%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">HTML5</span>
-                                    <ProgressBar now={45} label="45%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">CSS3</span>
-                                    <ProgressBar now={45} label="45%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">Python</span>
-                                    <ProgressBar now={30} label="30%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">JavaScript</span>
-                                    <ProgressBar now={25} label="25%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">C</span>
-                                    <ProgressBar now={17} label="17%" srOnly />
-                                </div>
-                                <div class="pt-3">
-                                    <span class="language">Golang</span>
-                                    <ProgressBar now={10} label="10%" srOnly />
-                                </div>
-                            </div>
+                            <Row>
+                                <Col>
+                                    <h4>Fluent</h4>
+                                    <ul>
+                                        <li>English</li>
+                                        <li>Mandarin Chinese</li>
+                                    </ul>
+                                </Col>
+                                <Col>
+                                    <h4>Learning</h4>
+                                    <ul>
+                                        <li>Japanese</li>
+                                    </ul>
+                                </Col>
+                            </Row>
                         </Col>
                     </Row>
-
                 </Container>
-            </section >
+            </section>
         );
     }
 }

@@ -7,13 +7,13 @@ class Navigation extends Component {
             <div>
                 <ul id="nav-bar" class="nav justify-content-center fixed-top">
                     <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="home">HOME</Link>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="about">About</Link>
                     </li>
                     <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="about">ABOUT</Link>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="projects">Projects</Link>
                     </li>
                     <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="projects">PROJECTS</Link>
+                        <Link smooth={true} duration={550} class="nav-link lead text-white" to="contact">Contact</Link>
                     </li>
                 </ul>
             </div>
