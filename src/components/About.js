@@ -23,7 +23,7 @@ class About extends Component {
 
     render() {
         return (
-            <section id="about">
+            <section id="about" className="my-4">
                 <Container id="about-container">
                     <Row className="justify-content-center">
                         <Col className="col-10 col-sm-6">
@@ -37,7 +37,7 @@ class About extends Component {
                             </p>
                         </Col>
                         <Col className="col-6">
-                            <Image src={require("../images/clouddoggo.png")} alt="photo of me" rounded width="200vw" />
+                            <Image src={require("../images/card.png")} alt="photo of me" rounded width="200vw" />
                         </Col>
                     </Row>
                     <Row className="mt-4">
@@ -46,8 +46,8 @@ class About extends Component {
                             <Row>
                                 <Col>
                                     <h4>Programming</h4>
-                                    <div class="p-3">
-                                        <ul>
+                                    <div className="p-3">
+                                        <ul className="ul-no-style">
                                             <li>Java</li>
                                             <li>JavaScript</li>
                                             <li>HTML/CSS</li>
@@ -60,9 +60,11 @@ class About extends Component {
                                 <Col>
                                     <h4>Frameworks</h4>
                                     <div class="p-3">
-                                        <ul>
+                                        <ul className="ul-no-style">
                                             <li>VueJS</li>
+                                            <li>Vuetify</li>
                                             <li>ReactJS</li>
+                                            <li>Bootstrap 4</li>
                                         </ul>
                                     </div>
                                 </Col>
@@ -70,18 +72,18 @@ class About extends Component {
 
                         </Col>
                         <Col>
-                            <h3>Languages</h3>
+                            <h3>Non-Technical Skills</h3>
                             <Row>
                                 <Col>
                                     <h4>Fluent</h4>
-                                    <ul>
+                                    <ul className="ul-no-style">
                                         <li>English</li>
                                         <li>Mandarin Chinese</li>
                                     </ul>
                                 </Col>
                                 <Col>
                                     <h4>Learning</h4>
-                                    <ul>
+                                    <ul className="ul-no-style">
                                         <li>Japanese</li>
                                     </ul>
                                 </Col>

@@ -30,7 +30,7 @@
 
 .App {
   text-align: center;
-  background-color: #222222;
+  background-color: #1d1d1d;
   color: #fefefe;
   background-image: url("./images/about.svg");
   background-size: cover !important;
@@ -47,22 +47,6 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
-}
-
-ul {
-  list-style-type: none;
-  padding-left: 0;
-}
-
-/* header items */
-
-header {
-  position: relative;
-  height: 100vh;
-  min-height: 400px;
-  background-size: cover !important;
-  -webkit-background-size: cover !important;
-  text-align: center;
 }
 
 .title {
@@ -94,8 +78,6 @@ header {
   text-decoration: none;
 }
 
-/* Set a specific color for each brand */
-
 /* Email, GitHub, Instagram*/
 
 .fa-envelope, .fa-github, .fa-instagram {
@@ -103,6 +85,11 @@ header {
 }
 
 /* about items */
+
+.ul-no-style {
+  list-style-type: none;
+  padding-left: 0;
+}
 
 #about-container {
   position: relative;
@@ -113,20 +100,8 @@ header {
 
 /* project items  */
 
-.project-item {
-  margin: 1px -15px 0 -14px;
-  padding: 0;
-}
-
-.project-item .project-overlay {
-  overflow: hidden;
-  position: relative;
-  margin: 0;
-}
-
 .project-overlay .project-details {
   position: absolute;
-  margin: 0 auto;
   color: whitesmoke;
   background-color: #012a59;
   padding-top: 5%;
@@ -143,8 +118,6 @@ header {
   transform: translateY(100%);
   transition: all 0.3s;
   font-size: 18px;
-  letter-spacing: 1px;
-  font-weight: 500;
   text-transform: uppercase;
 }
 

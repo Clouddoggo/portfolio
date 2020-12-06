@@ -5,8 +5,8 @@ import { Row } from 'react-bootstrap';
 class Projects extends Component {
     render() {
         return (
-            <section id="projects">
-                <div className="p-5">
+            <section id="projects" className="my-5 pt-5">
+                <div>
                     <h2 class="title">PROJECTS</h2>
                     <Row>
                         <Thumbnail
@@ -23,6 +23,8 @@ class Projects extends Component {
                             type="Group project"
                             details="JelphaBot is a personal task manager built from code written for an address book. It supports CRUD of tasks and events for NUS modules. Additional features include a calendar, a daily overview, reminders and a productivity view. I took charge of the productivity feature. This project was built with JavaFX and Java 11."
                         />
+                    </Row>
+                    <Row>
                         <Thumbnail
                             src="https://github.com/Clouddoggo/duke"
                             image="Duke.png"

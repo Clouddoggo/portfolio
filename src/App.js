@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
 import Navigation from "./components/Navigation";
 import About from "./components/About";
+import Experience from "./components/Experience";
 import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import './App.css';
-import data from './data';
 
 class App extends Component {
   render() {
@@ -12,7 +12,8 @@ class App extends Component {
       <div className="App">
         <Navigation />
         <About />
-        <Projects data={data}></Projects>
+        <Experience />
+        <Projects />
         <Contact />
       </div>
     );

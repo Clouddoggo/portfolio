@@ -2,25 +2,9 @@ import React, { Component } from 'react';
 import Image from 'react-bootstrap/Image';
 
 class Contact extends Component {
-
-    constructor(props) {
-        super(props);
-        this.state = { message: '' };
-    }
-
-    changeHandler = (event) => {
-        const entered = event.target.value;
-        if (entered.trim().length === 0) {
-            alert("Field cannot be empty");
-            return;
-        }
-        this.setState({ message: event.target.value });
-        console.log("message: " + event.target.value);
-    }
-
     render() {
         return (
-            <section id="contact">
+            <section id="contact" className="py-4">
                 <p>Have an idea you want to bring to life? Contact me!</p>
                 <Image src={require("../images/clouddoggo.png")} className="pb-3" alt="photo of me" roundedCircle width="100vw" />
                 <div className="pb-5">
