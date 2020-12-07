@@ -1,21 +1,21 @@
 @font-face {
   font-family: Raleway;
-  src: url(./fonts/Raleway/Raleway-Medium.ttf);
+  src: url(./assets/fonts/Raleway/Raleway-Medium.ttf);
 }
 
 @font-face {
   font-family: Lora;
-  src: url(./fonts/Lora/Lora-VariableFont_wght.ttf);
+  src: url(./assets/fonts/Lora/Lora-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Jost;
-  src: url(./fonts/Jost/Jost-VariableFont_wght.ttf);
+  src: url(./assets/fonts/Jost/Jost-VariableFont_wght.ttf);
 }
 
 @font-face {
   font-family: Josefin;
-  src: url(./fonts/Josefin/JosefinSans-VariableFont_wght.ttf);
+  src: url(./assets/fonts/Josefin/JosefinSans-VariableFont_wght.ttf);
 }
 
 .josefin {
@@ -32,7 +32,7 @@
   text-align: center;
   background-color: #1d1d1d;
   color: #fefefe;
-  background-image: url("./images/about.svg");
+  background-image: url("./assets/images/about.svg");
   background-size: cover !important;
   -webkit-background-size: cover !important;
   background-attachment: local;
@@ -55,6 +55,13 @@
   padding: 40px;
 }
 
+.sub-title {
+  font-family: Raleway;
+  font-weight: 200;
+  margin-bottom: 20px;
+  color: lightcyan;
+}
+
 #nav-bar {
   background-color: black;
 }
@@ -65,7 +72,7 @@
 
 .fa {
   padding: 10px;
-  font-size: 20px;
+  font-size: 25px;
   width: 50px;
   text-align: center;
   text-decoration: none;
@@ -74,7 +81,7 @@
 /* Add a hover effect */
 
 .fa:hover {
-  color: #9CECFB;
+  color: #6be2f7;
   text-decoration: none;
 }
 
@@ -103,7 +110,7 @@
 .project-overlay .project-details {
   position: absolute;
   color: whitesmoke;
-  background-color: #012a59;
+  background-color: #062446de;
   padding-top: 5%;
   height: 100%;
   width: 100%;

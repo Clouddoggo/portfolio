@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import Thumbnail from "./Thumbnail";
-import { Row } from 'react-bootstrap';
+import { Row, Container } from 'react-bootstrap';
 
 class Projects extends Component {
     render() {
         return (
             <section id="projects" className="my-5 pt-5">
-                <div>
+                <Container>
                     <h2 class="title">PROJECTS</h2>
                     <Row>
                         <Thumbnail
@@ -40,7 +40,7 @@ class Projects extends Component {
                             details="ChairVisE4.0 is a conference data visualisation management system. It is built upon ChairVisE3.0 that supports the importing of conference data, chart visualisation and a calendar view. Changes made include a UI redesign, integration of a responsive web design framework, and a conference data sharing channel - ChairHub. This project was built with Java 8, ChartJS, VueJS and Vuetify."
                         />
                     </Row>
-                </div>
+                </Container>
             </section>
         );
     }

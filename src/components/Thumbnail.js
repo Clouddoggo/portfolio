@@ -28,7 +28,7 @@ class Thumbnail extends Component {
                     </div>
                     <h4>{this.props.title}</h4>
                     <Image
-                        src={require(`../images/${this.props.image}`)}
+                        src={require(`../assets/images/${this.props.image}`)}
                         alt="Project image"
                         width="450"
                     />

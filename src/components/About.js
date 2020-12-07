@@ -29,7 +29,7 @@ class About extends Component {
                         <Col className="col-10 col-sm-6">
                             <h1 className="josefin">Hello, I am Jel.</h1>
                             <p className="lora">
-                                I am in my penultimate year at the National University of Singapore (NUS).
+                                I am in my penultimate year at the National University of Singapore (NUS) majoring in Computer Science.
             I have interests in <span
                                     style={{ whiteSpace: 'pre' }}
                                     ref={(el) => { this.el = el; }}
@@ -37,7 +37,7 @@ class About extends Component {
                             </p>
                         </Col>
                         <Col className="col-6">
-                            <Image src={require("../images/card.png")} alt="photo of me" rounded width="200vw" />
+                            <Image src={require("../assets/images/card.png")} alt="photo of me" rounded width="200vw" />
                         </Col>
                     </Row>
                     <Row className="mt-4">
@@ -45,7 +45,7 @@ class About extends Component {
                             <h3>Technical Skills</h3>
                             <Row>
                                 <Col>
-                                    <h4>Programming</h4>
+                                    <h4 className="sub-title">Programming</h4>
                                     <div className="p-3">
                                         <ul className="ul-no-style">
                                             <li>Java</li>
@@ -58,7 +58,7 @@ class About extends Component {
                                     </div>
                                 </Col>
                                 <Col>
-                                    <h4>Frameworks</h4>
+                                    <h4 className="sub-title">Frameworks</h4>
                                     <div class="p-3">
                                         <ul className="ul-no-style">
                                             <li>VueJS</li>
@@ -75,14 +75,14 @@ class About extends Component {
                             <h3>Non-Technical Skills</h3>
                             <Row>
                                 <Col>
-                                    <h4>Fluent</h4>
+                                    <h4 className="sub-title">Fluent</h4>
                                     <ul className="ul-no-style">
                                         <li>English</li>
                                         <li>Mandarin Chinese</li>
                                     </ul>
                                 </Col>
                                 <Col>
-                                    <h4>Learning</h4>
+                                    <h4 className="sub-title">Learning</h4>
                                     <ul className="ul-no-style">
                                         <li>Japanese</li>
                                     </ul>
