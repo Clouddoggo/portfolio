@@ -107,6 +107,11 @@
 
 /* project items  */
 
+/* .project-overlay {
+  background-color: #f0f0f0;
+  border-radius: 5%;
+} */
+
 .project-overlay .project-details {
   position: absolute;
   color: whitesmoke;

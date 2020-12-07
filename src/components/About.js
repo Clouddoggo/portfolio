@@ -46,27 +46,23 @@ class About extends Component {
                             <Row>
                                 <Col>
                                     <h4 className="sub-title">Programming</h4>
-                                    <div className="p-3">
-                                        <ul className="ul-no-style">
-                                            <li>Java</li>
-                                            <li>JavaScript</li>
-                                            <li>HTML/CSS</li>
-                                            <li>Python</li>
-                                            <li>Dart</li>
-                                            <li>C</li>
-                                        </ul>
-                                    </div>
+                                    <ul className="ul-no-style">
+                                        <li>Java</li>
+                                        <li>JavaScript</li>
+                                        <li>HTML/CSS</li>
+                                        <li>Python</li>
+                                        <li>Dart</li>
+                                        <li>C</li>
+                                    </ul>
                                 </Col>
                                 <Col>
                                     <h4 className="sub-title">Frameworks</h4>
-                                    <div class="p-3">
-                                        <ul className="ul-no-style">
-                                            <li>VueJS</li>
-                                            <li>Vuetify</li>
-                                            <li>ReactJS</li>
-                                            <li>Bootstrap 4</li>
-                                        </ul>
-                                    </div>
+                                    <ul className="ul-no-style">
+                                        <li>VueJS</li>
+                                        <li>Vuetify</li>
+                                        <li>ReactJS</li>
+                                        <li>Bootstrap 4</li>
+                                    </ul>
                                 </Col>
                             </Row>
 
