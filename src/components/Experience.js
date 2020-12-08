@@ -16,6 +16,8 @@ class Experience extends Component {
                             <h5>Product Intern, GBCI Ventures Pte. Ltd.</h5>
                             <ul>
                                 <li>Redesigned onboarding flow for Fincy, an e-wallet with the ability to exchange and transfer fiat and cryptocurrency.</li>
+                                <li>Conducted detailed research to better Fincy's interfaces and presented the solutions to superiors.</li>
+                                <li>Designed a web application for Fincy's business users to verify their corporation.</li>
                                 <li>Took charge of product design for the new marketplace feature to be intergrated into Fincy.</li>
                                 <li>Performed acceptance and exploratory testing for Fincy and BCB Blockchain (Solidity version).</li>
                             </ul>
@@ -53,9 +55,9 @@ class Experience extends Component {
                         <Col className="text-left">
                             <h5>CyberDefenders Discovery Camp, Defence Science Technology Agency</h5>
                             <ul>
-                                <li>Picked up digital forensics skills such as analysing packets using Wireshark pinging ports.</li>
-                                <li>Gained experience using security analysis tools in both Linux and Windows environments.</li>
-                                <li>Competed in the online qualifiers and made it to the online competition.</li>
+                                <li>Picked up digital forensics skills such as analysing packets using Wireshark and pinging ports.</li>
+                                <li>Learned to use security analysis tools in both Linux and Windows environments.</li>
+                                <li>Competed in the online qualifiers and got through to the on site competition.</li>
                             </ul>
                         </Col>
                     </Row>

@@ -38,10 +38,10 @@ class Projects extends Component {
                         <Thumbnail
                             src="https://github.com/Clouddoggo/"
                             image="chairvise.png"
-                            title="ChairVisE4.0"
+                            title="ChairVisE 4.0"
                             type="Group project"
                             width="550"
-                            details="ChairVisE4.0 is a conference data visualisation management system web application. It is built upon ChairVisE3.0 that supports the importing of conference data, chart visualisation and a calendar view. Changes made include a UI redesign, integration of a responsive web design framework, and a conference data sharing channel - ChairHub. This project was built with Java 8, ChartJS, VueJS and Vuetify."
+                            details="ChairVisE4.0 is a conference data visualisation management system web application. It is built upon ChairVisE3.0 that supports the importing of conference data, chart visualisation and a calendar view. Changes made include a UI redesign, integration of a responsive web design framework, and a conference data sharing channel - ChairHub. This project was built with Java 8, ChartJS, VueJS and Vuetify. Please note that the source code for this project is not available for public viewing. For more information, please contact me."
                         />
                     </Row>
                 </Container>
