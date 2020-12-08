@@ -30,7 +30,7 @@ class Thumbnail extends Component {
                     <Image
                         src={require(`../assets/images/${this.props.image}`)}
                         alt="Project image"
-                        width="450"
+                        width={this.props.width}
                     />
                 </div>
             </div>
