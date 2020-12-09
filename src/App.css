@@ -81,14 +81,14 @@
 /* Add a hover effect */
 
 .fa:hover {
-  color: #6be2f7;
+  color: rgb(117, 90, 238);
   text-decoration: none;
 }
 
 /* Email, GitHub, Instagram*/
 
 .fa-envelope, .fa-github, .fa-instagram {
-  color: white;
+  color: #52b1f0;
 }
 
 /* about items */
@@ -100,46 +100,12 @@
 
 #about-container {
   position: relative;
-  height: 100vh;
   padding-top: 25vh;
   text-align: center;
 }
 
-/* project items  */
+/* contact section */
 
-/* .project-overlay {
-  background-color: #f0f0f0;
-  border-radius: 5%;
-} */
-
-.project-overlay .project-details {
-  position: absolute;
-  color: whitesmoke;
-  background-color: #062446de;
-  padding-top: 5%;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: all 0.5s;
-}
-
-.project-overlay .project-details>h4 {
-  opacity: 0;
-  color: whitesmoke;
-  -webkit-transform: translateY(100%);
-  transform: translateY(100%);
-  transition: all 0.3s;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-
-.project-overlay:hover .project-details>h4 {
-  opacity: 1;
-  -webkit-backface-visibility: hidden;
-  -webkit-transform: translateY(0);
-  transform: translateY(0);
-}
-
-.project-overlay:hover .project-details {
-  opacity: 1;
+#contact {
+  padding: 5% 0;
 }

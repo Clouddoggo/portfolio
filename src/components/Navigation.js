@@ -5,18 +5,18 @@ class Navigation extends Component {
     render() {
         return (
             <div>
-                <ul id="nav-bar" class="nav fixed-top pl-4 py-3">
-                    <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link text-white" to="about">About</Link>
+                <ul id="nav-bar" className="nav fixed-top pl-4 py-3">
+                    <li className="nav-item">
+                        <Link smooth={true} duration={550} className="nav-link text-white" to="about">About</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link text-white" to="experience">Experience</Link>
+                    <li className="nav-item">
+                        <Link smooth={true} duration={550} className="nav-link text-white" to="experience">Experience</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link text-white" to="projects">Projects</Link>
+                    <li className="nav-item">
+                        <Link smooth={true} duration={550} className="nav-link text-white" to="projects">Projects</Link>
                     </li>
-                    <li class="nav-item">
-                        <Link smooth={true} duration={550} class="nav-link text-white" to="contact">Contact</Link>
+                    <li className="nav-item">
+                        <Link smooth={true} duration={550} className="nav-link text-white" to="contact">Contact</Link>
                     </li>
                 </ul>
             </div>

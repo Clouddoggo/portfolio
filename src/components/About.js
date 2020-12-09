@@ -35,6 +35,7 @@ class About extends Component {
                                     ref={(el) => { this.el = el; }}
                                 />
                             </p>
+                            <a className="fa fa-github" target="_blank" rel="noopener noreferrer" href="https://github.com/Clouddoggo" alt="go to GitHub profile" title="Visit my GitHub"> </a>
                         </Col>
                         <Col className="col-6">
                             <Image src={require("../assets/images/card.png")} alt="photo of me" rounded width="200vw" />

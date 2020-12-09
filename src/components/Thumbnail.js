@@ -1,38 +1,49 @@
 import React, { Component } from 'react';
-import { Image } from 'react-bootstrap';
+import { Image, Modal } from 'react-bootstrap';
 
 class Thumbnail extends Component {
     constructor() {
         super();
+        this.handleShow = this.handleShow.bind(this);
+        this.handleClose = this.handleClose.bind(this);
         this.state = {
-            hover: false
+            show: null,
+            setShow: false,
         }
     }
 
-    toggleHover() {
-        this.setState({
-            hover: !this.state.hover
-        });
+    handleClose() {
+        this.setState({ show: null });
     }
 
+    handleShow(id) {
+        this.setState({ show: id });
+    }
 
     render() {
         return (
-            <div className="col-sm-6 pb-4">
-                <div className="project-overlay">
-                    <div className="project-details">
-                        <h4>{this.props.type} <a class="fa fa-github" href={this.props.src} title="View the source code"></a></h4>
-                        <p className="px-4">
-                            {this.props.details}
-                        </p>
-                    </div>
-                    <h4>{this.props.title}</h4>
-                    <Image
-                        src={require(`../assets/images/${this.props.image}`)}
-                        alt="Project image"
-                        width={this.props.width}
-                    />
-                </div>
+            <div className="pb-4">
+                <h4>{this.props.title} {" "}
+                    <a className="fa fa-info-circle" onClick={() => this.handleShow(this.props.id)} href="#projects"> </a></h4>
+                <br></br>
+                <Image
+                    src={require(`../assets/images/${this.props.image}`)}
+                    alt="Project image"
+                    width={this.props.width}
+                />
+
+                <Modal
+                    show={this.state.show === this.props.id} onHide={this.handleClose} centered
+                >
+                    <Modal.Header closeButton closeLabel="close window">
+                        <Modal.Title>
+                            {this.props.type} <a className="fa fa-github" target="_blank" rel="noopener noreferrer" href={this.props.src} alt="view source code"> </a>
+                        </Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                        <p>{this.props.details}</p>
+                    </Modal.Body>
+                </Modal>
             </div>
         )
     }

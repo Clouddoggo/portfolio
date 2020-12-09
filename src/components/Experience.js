@@ -4,12 +4,12 @@ import { Row, Col, Container } from 'react-bootstrap';
 class Experience extends Component {
     render() {
         return (
-            <section id="experience" className="my-3 pt-5">
+            <section id="experience" className="pt-5">
+                <h2 className="title">EXPERIENCE</h2>
                 <Container fluid className="d-flex flex-column">
-                    <h2 className="title">EXPERIENCE</h2>
                     <h3 className="sub-title">Work</h3>
                     <Row>
-                        <Col>
+                        <Col className="col-5">
                             <h4>May - August 2020</h4>
                         </Col>
                         <Col className="text-left">
@@ -24,7 +24,7 @@ class Experience extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col className="col-5">
                             <h4>August - November 2019 & 2020</h4>
                         </Col>
                         <Col className="text-left">
@@ -37,7 +37,7 @@ class Experience extends Component {
                     </Row>
                     <h3 className="sub-title mt-5">Activities</h3>
                     <Row>
-                        <Col>
+                        <Col className="col-5">
                             <h4>October 2020</h4>
                         </Col>
                         <Col className="text-left">
@@ -49,7 +49,7 @@ class Experience extends Component {
                         </Col>
                     </Row>
                     <Row>
-                        <Col>
+                        <Col className="col-5">
                             <h4>May 2019</h4>
                         </Col>
                         <Col className="text-left">
@@ -57,7 +57,7 @@ class Experience extends Component {
                             <ul>
                                 <li>Picked up digital forensics skills such as analysing packets using Wireshark and pinging ports.</li>
                                 <li>Learned to use security analysis tools in both Linux and Windows environments.</li>
-                                <li>Competed in the online qualifiers and got through to the on site competition.</li>
+                                <li>Competed in the online qualifiers in a team of 4 and got through to the on site competition.</li>
                             </ul>
                         </Col>
                     </Row>
