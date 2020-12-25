@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import { Image, Modal } from 'react-bootstrap';
+import { Image, Modal, Button } from 'react-bootstrap';
+import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 
 class Thumbnail extends Component {
     constructor() {
@@ -24,13 +25,13 @@ class Thumbnail extends Component {
         return (
             <div className="pb-4">
                 <h4>{this.props.title} {" "}
-                    <a className="fa fa-info-circle" onClick={() => this.handleShow(this.props.id)} href="#projects"> </a></h4>
+                    <Button variant="link" className="fa fa-info-circle" onClick={() => this.handleShow(this.props.id)}></Button></h4>
                 <br></br>
-                <Image
-                    src={require(`../assets/images/${this.props.image}`)}
-                    alt="Project image"
-                    width={this.props.width}
-                />
+                <TransformWrapper>
+                    <TransformComponent>
+                        <Image src={require(`../assets/images/${this.props.image}`)} alt="Project image" width={this.props.width} />
+                    </TransformComponent>
+                </TransformWrapper>
 
                 <Modal
                     show={this.state.show === this.props.id} onHide={this.handleClose} centered

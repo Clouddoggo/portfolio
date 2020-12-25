@@ -43,7 +43,7 @@ class Experience extends Component {
                         <Col className="text-left">
                             <h5>Facebook Singapore Virtual Hack, Facebook</h5>
                             <ul>
-                                <li>Competed in the coding challenge as a team of 5 and came in third.</li>
+                                <li>Came in third place for the coding challenge as a team of 5.</li>
                                 <li>Participated in the product design challenge and presented a solution to encourage exercising.</li>
                             </ul>
                         </Col>
