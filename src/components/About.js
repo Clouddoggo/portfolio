@@ -11,7 +11,7 @@ class About extends Component {
             typeSpeed: 50,
             backSpeed: 50,
             loop: true,
-            loopCount: 2,
+            loopCount: 4,
         }
 
         this.typed = new Typed(this.el, options);

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
-import { Image, Modal, Button } from 'react-bootstrap';
+import { Modal, Button } from 'react-bootstrap';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
+import FittedImage from 'react-fitted-image';
 
 class Thumbnail extends Component {
     constructor() {
@@ -29,7 +30,7 @@ class Thumbnail extends Component {
                 <br></br>
                 <TransformWrapper>
                     <TransformComponent>
-                        <Image src={require(`../assets/images/${this.props.image}`)} alt="Project image" width={this.props.width} />
+                        <FittedImage fit="contain" src={require(`../assets/images/${this.props.image}`)} alt="Project image"></FittedImage>
                     </TransformComponent>
                 </TransformWrapper>
 
