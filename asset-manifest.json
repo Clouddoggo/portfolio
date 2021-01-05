@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.cdb6cb82.chunk.css",
-    "main.js": "/portfolio/static/js/main.b399c0bb.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.b399c0bb.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.22c23f40.chunk.css",
+    "main.js": "/portfolio/static/js/main.9b5d2c7b.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.9b5d2c7b.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.209c2d7e.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.209c2d7e.js.map",
     "static/css/2.0e24dfe3.chunk.css": "/portfolio/static/css/2.0e24dfe3.chunk.css",
-    "static/js/2.95261458.chunk.js": "/portfolio/static/js/2.95261458.chunk.js",
-    "static/js/2.95261458.chunk.js.map": "/portfolio/static/js/2.95261458.chunk.js.map",
+    "static/js/2.873dd32b.chunk.js": "/portfolio/static/js/2.873dd32b.chunk.js",
+    "static/js/2.873dd32b.chunk.js.map": "/portfolio/static/js/2.873dd32b.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.ac5de42086da0fa7e693f2d55863cc8a.js": "/portfolio/precache-manifest.ac5de42086da0fa7e693f2d55863cc8a.js",
+    "precache-manifest.e054b8a5fc40152a9eaf43e8b9175fd0.js": "/portfolio/precache-manifest.e054b8a5fc40152a9eaf43e8b9175fd0.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.0e24dfe3.chunk.css.map": "/portfolio/static/css/2.0e24dfe3.chunk.css.map",
-    "static/css/main.cdb6cb82.chunk.css.map": "/portfolio/static/css/main.cdb6cb82.chunk.css.map",
-    "static/js/2.95261458.chunk.js.LICENSE.txt": "/portfolio/static/js/2.95261458.chunk.js.LICENSE.txt",
+    "static/css/main.22c23f40.chunk.css.map": "/portfolio/static/css/main.22c23f40.chunk.css.map",
+    "static/js/2.873dd32b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.873dd32b.chunk.js.LICENSE.txt",
     "static/media/App.css": "/portfolio/static/media/about.13b202f7.svg",
     "static/media/alarm.svg": "/portfolio/static/media/alarm.cef57053.svg",
     "static/media/card.png": "/portfolio/static/media/card.a88240e6.png",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.209c2d7e.js",
     "static/css/2.0e24dfe3.chunk.css",
-    "static/js/2.95261458.chunk.js",
-    "static/css/main.cdb6cb82.chunk.css",
-    "static/js/main.b399c0bb.chunk.js"
+    "static/js/2.873dd32b.chunk.js",
+    "static/css/main.22c23f40.chunk.css",
+    "static/js/main.9b5d2c7b.chunk.js"
   ]
 }
