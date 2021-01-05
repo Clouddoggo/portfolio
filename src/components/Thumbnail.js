@@ -3,6 +3,7 @@ import { Modal, Button } from 'react-bootstrap';
 import { TransformWrapper, TransformComponent } from "react-zoom-pan-pinch";
 import FittedImage from 'react-fitted-image';
 
+
 class Thumbnail extends Component {
     constructor() {
         super();
@@ -23,6 +24,8 @@ class Thumbnail extends Component {
     }
 
     render() {
+        const text = this.props.details;
+
         return (
             <div className="pb-4">
                 <h4>{this.props.title} {" "}
@@ -43,7 +46,7 @@ class Thumbnail extends Component {
                         </Modal.Title>
                     </Modal.Header>
                     <Modal.Body>
-                        <p>{this.props.details}</p>
+                        <div className="thumbnail-text">{text}</div>
                     </Modal.Body>
                 </Modal>
             </div>

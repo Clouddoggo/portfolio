@@ -1,12 +1,26 @@
 import React, { Component } from 'react';
 import Thumbnail from "./Thumbnail";
-import { Row, Container, Col } from 'react-bootstrap';
+import { Button, Row, Container, Col, OverlayTrigger, Tooltip } from 'react-bootstrap';
 
 class Projects extends Component {
+
     render() {
+        const renderTooltip = (props) => (
+            <Tooltip id="button-tooltip" {...props}>
+                Scroll or pinch the images to zoom in/out of them!
+            </Tooltip>
+        )
+
         return (
             <section id="projects" className="pt-5">
-                <h2 className="title">PROJECTS</h2>
+                <h2 className="title">
+                    <OverlayTrigger placement="left" delay={{ show: 200, hide: 330 }}
+                        overlay={renderTooltip}>
+                        <Button variant="link" className="fa fa-lightbulb-o mr-4"></Button>
+                    </OverlayTrigger>
+                    PROJECTS
+                </h2>
+
                 <Container>
                     <Row>
                         <Col xs={12} sm={6}>
@@ -24,7 +38,7 @@ class Projects extends Component {
                                 image="jelphabot.png"
                                 title="JelphaBot"
                                 type="Group project"
-                                details="JelphaBot is a desktop personal task manager built from code written for an address book. It supports CRUD of tasks and events for NUS modules. Additional features include a calendar, a daily overview, reminders and a productivity view. I took charge of the productivity feature. This project was built with JavaFX and Java 11."
+                                details="JelphaBot is a desktop personal task manager built from an address book. It supports CRUD of tasks and events for NUS modules. Additional features include a calendar, a daily overview, reminders and a productivity view. I took charge of the productivity feature. This project was built with JavaFX and Java 11."
                             />
                         </Col>
                     </Row>

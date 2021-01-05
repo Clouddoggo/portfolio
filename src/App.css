@@ -91,6 +91,12 @@
   color: #52b1f0;
 }
 
+/* tooltip */
+
+.fa-lightbulb-o {
+  color: khaki;
+}
+
 /* about items */
 
 .ul-no-style {
@@ -108,4 +114,8 @@
 
 #contact {
   padding: 5% 0;
+}
+
+.thumbnail-text {
+  white-space: pre-line;
 }
