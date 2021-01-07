@@ -14,7 +14,7 @@ class Projects extends Component {
         return (
             <section id="projects" className="pt-5">
                 <h2 className="title">
-                    <OverlayTrigger placement="left" delay={{ show: 200, hide: 330 }}
+                    <OverlayTrigger placement="bottom" delay={{ show: 200, hide: 330 }}
                         overlay={renderTooltip}>
                         <Button variant="link" className="fa fa-lightbulb-o mr-4"></Button>
                     </OverlayTrigger>
