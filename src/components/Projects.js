@@ -25,11 +25,11 @@ class Projects extends Component {
                     <Row>
                         <Col xs={12} sm={6}>
                             <Thumbnail
-                                src="https://github.com/Clouddoggo/AnnoyingAlarm"
+                                src="https://github.com/Clouddoggo/flutter-alarm"
                                 image="alarm.svg"
-                                title="Annoying Alarm"
+                                title="Flutter Alarm"
                                 type="Individual project"
-                                details="AnnoyingAlarm is an alarm sharing mobile application. Users have to first authenticate themselves with their mobile numbers. Next, they can sync their contacts and create alarms for themselves or their contacts by sending a created alarm via Wi-Fi. Alarms are all locked with a password so that dismissing or snoozing can only be done if the password entered is correct. Passwords cannot be copied from the screen and pasted into the entry field. This project was built with Flutter and Firebase."
+                                details="Flutter Alarm is a mobile alarm application. Users may create alarms that are locked with passwords. The back, home and lock buttons are locked when the user lands on the page to enter the alarm's password. Snoozing, copying and pasting are also prohibited on that page. For a detailed list of features, please refer to the README on GitHub. This project was built with Flutter and Firebase."
                             />
                         </Col>
                         <Col xs={12} sm={6}>
@@ -38,7 +38,7 @@ class Projects extends Component {
                                 image="jelphabot.png"
                                 title="JelphaBot"
                                 type="Group project"
-                                details="JelphaBot is a desktop personal task manager built from an address book. It supports CRUD of tasks and events for NUS modules. Additional features include a calendar, a daily overview, reminders and a productivity view. I took charge of the productivity feature. This project was built with JavaFX and Java 11."
+                                details="JelphaBot is a desktop personal task manager built from an address book. It supports CRUD of tasks and events for NUS modules. Additional features include a calendar, a daily overview, reminders and a productivity view. I delivered the productivity feature. For a detailed list of features and use cases, please refer to the User Guide and Developer Guide on GitHub. This project was built with JavaFX and Java 11."
                             />
                         </Col>
                     </Row>
@@ -49,7 +49,7 @@ class Projects extends Component {
                                 image="duke.png"
                                 title="Duke"
                                 type="Individual project"
-                                details="Duke is a desktop personal task manager. It supports CRUD of tasks and events. It also has functions to mark a task as done. In the event of mistake, users can unmark a done task. This project was built with JavaFX and Java 11."
+                                details="Duke is a desktop personal task manager. It supports CRUD of tasks and events. It also has functions to mark a task and unmark a task as done. For a detailed list of features, please refer to the GitHub pages link on GitHub. This project was built with JavaFX and Java 11."
                             />
                         </Col>
                         <Col xs={12} sm={6}>
