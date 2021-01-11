@@ -50,6 +50,18 @@ class Experience extends Component {
                     </Row>
                     <Row>
                         <Col className="col-5">
+                            <h4>June 2020</h4>
+                        </Col>
+                        <Col className="text-left">
+                            <h5>CodeEXP, Defence Science Technology Agency</h5>
+                            <ul>
+                                <li>In a team of 4, I proposed a mobile application to faciliate the flow of workers between firms during the Covid-19 pandemic.</li>
+                                <li>I delivered the back-end classes for CRUD (Create-Read-Update-Delete) operations and wrote sample test cases.</li>
+                            </ul>
+                        </Col>
+                    </Row>
+                    <Row>
+                        <Col className="col-5">
                             <h4>May 2019</h4>
                         </Col>
                         <Col className="text-left">
